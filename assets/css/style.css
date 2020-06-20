@@ -3,17 +3,51 @@
 }
 
 .main-section-title{
-    font-size: 300%;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 310%;
     text-align: center;
 }
 
-.container-fluid{
+.containerr{
     background-image: url(../images/background2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
     
 }
 
 body{
     font-family: 'Shojumaru', cursive;
+}
+
+.character {
+    display: inline-block;
+    border-style: solid;
+    border-color: red;
+    cursor: pointer;
+    background-color: white;
+}
+
+.character-image {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.character-name, .character-health{
+    text-align: center;
+}
+
+img{
+    height: 100px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.character-section{
+    padding-bottom: 24px;
 }
